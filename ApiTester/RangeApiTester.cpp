@@ -114,7 +114,7 @@ int main_RangeApp()
         //step 2. Initialize API
         print("---- Initializing API ----");
         if (!InitializeApi()) printAndExit("InitializeApi", 2);
-        
+
         //step 3. Open device
         print("\n---- Opening Devices ----");
         if (!OpenDevice()) printAndExit("OpenDevice", 3);

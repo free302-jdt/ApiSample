@@ -5,44 +5,36 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApiTester", "ApiTester\ApiTester.vcxproj", "{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{C188BCC3-EDB4-4C21-8F0D-D10560836931}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{216F7329-512B-4762-AFDC-EF38AE9A0193}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AngleApiTester|x64 = AngleApiTester|x64
+		AngleApiTester|x86 = AngleApiTester|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		RangeApiTester|x64 = RangeApiTester|x64
+		RangeApiTester|x86 = RangeApiTester|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.AngleApiTester|x64.ActiveCfg = AngleApiTester|x64
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.AngleApiTester|x64.Build.0 = AngleApiTester|x64
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.AngleApiTester|x86.ActiveCfg = AngleApiTester|Win32
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.AngleApiTester|x86.Build.0 = AngleApiTester|Win32
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Debug|x64.ActiveCfg = Debug|x64
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Debug|x64.Build.0 = Debug|x64
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Debug|x86.ActiveCfg = Debug|Win32
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Debug|x86.Build.0 = Debug|Win32
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.RangeApiTester|x64.ActiveCfg = RangeApiTester|x64
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.RangeApiTester|x64.Build.0 = RangeApiTester|x64
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.RangeApiTester|x86.ActiveCfg = RangeApiTester|Win32
+		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.RangeApiTester|x86.Build.0 = RangeApiTester|Win32
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x64.ActiveCfg = Release|x64
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x64.Build.0 = Release|x64
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x64.Deploy.0 = Release|x64
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x86.ActiveCfg = Release|Win32
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x86.Build.0 = Release|Win32
 		{62EE7D8B-2B95-48DE-A1FE-625CBD2D7313}.Release|x86.Deploy.0 = Release|Win32
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Debug|x64.ActiveCfg = Debug|x64
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Debug|x64.Build.0 = Debug|x64
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Debug|x86.ActiveCfg = Debug|Win32
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Debug|x86.Build.0 = Debug|Win32
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Release|x64.ActiveCfg = Release|x64
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Release|x64.Build.0 = Release|x64
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Release|x86.ActiveCfg = Release|Win32
-		{C188BCC3-EDB4-4C21-8F0D-D10560836931}.Release|x86.Build.0 = Release|Win32
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Debug|x64.ActiveCfg = Debug|x64
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Debug|x64.Build.0 = Debug|x64
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Debug|x86.ActiveCfg = Debug|Win32
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Debug|x86.Build.0 = Debug|Win32
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Release|x64.ActiveCfg = Release|x64
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Release|x64.Build.0 = Release|x64
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Release|x86.ActiveCfg = Release|Win32
-		{216F7329-512B-4762-AFDC-EF38AE9A0193}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
