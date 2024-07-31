@@ -128,8 +128,10 @@ int main_AngleApp()
 
         //start async operation
         print("\n---- Starting Asynchronuous Operation ----");
-        auto f = [] { if (!RotateTo("W, -5")) print("  --> exception in std::async(RotateTo)"); };
+        auto f = [] { if (!RotateTo("W, -45")) print("  --> exception in std::async(RotateTo)"); };
         auto a = std::async(f);
+        auto f2 = [] { if (!RotateTo("W, 45")) print("  --> exception in std::async(RotateTo)"); };
+        auto a2 = std::async(f2);
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
         //ÁÂÇ¥ ÀÐ±â
